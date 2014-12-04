@@ -17,14 +17,14 @@ It's a kind of ListView/GridView (or) a replacement for ListView & Gridview in t
 
 Add this view in your XML:
 
-<pre>
-<android.support.v7.widget.RecyclerView
-    android:id="@+id/recycler_view"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:cacheColorHint="@android:color/transparent"
-    android:scrollbars="vertical" />
-</pre>
+```
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:scrollbars="vertical" />
+```
 
 ### FloatingActionButton and FAB with Animations ###
 
@@ -32,7 +32,7 @@ Add this view in your XML:
 The button should be placed in the bottom right corner of the screen. 
 * Add your "tv.llel.floatingactionbutton.FloatingActionButton"s to the FloatingActionsMenu layout. Can add as many FloatingActionButtons as required.
 
-<pre>
+```
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:fab="http://schemas.android.com/apk/res-auto"
         android:background="@color/background"
@@ -95,9 +95,8 @@ The button should be placed in the bottom right corner of the screen.
                 fab:fab_colorNormal="@color/yellow_semi_transparent"
                 fab:fab_colorPressed="@color/yellow_semi_transparent_pressed" />
         </tv.llel.floatingactionbutton.FloatingActionsMenu>
-        
     </RelativeLayout>
-</pre>
+```
 
 You can add the Click listener for this FloatingMenu:
 

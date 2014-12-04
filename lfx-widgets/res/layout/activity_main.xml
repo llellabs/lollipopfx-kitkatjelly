@@ -1,0 +1,73 @@
+    
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        
+        <View android:id="@+id/full_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="#80000000"/>
+	
+<!--     <ListView android:id="@+id/listview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" /> -->
+    
+         <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/grid_load_more_progressBar"
+        >
+    
+        <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:scrollbars="vertical" />
+     </android.support.v4.widget.SwipeRefreshLayout>
+    
+    <tv.llel.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/multiple_actions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="14dp"
+        fab:fab_addButtonColorNormal="@color/blue"
+        fab:fab_addButtonColorPressed="@color/blue_pressed"
+        fab:fab_addButtonPlusIconColor="@color/white" >
+
+        <tv.llel.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_action1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/meganta_semi_transparent"
+            fab:fab_colorPressed="@color/meganta_semi_transparent_pressed" />
+
+        <tv.llel.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_ation2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/new_pink_semi_transparent"
+            fab:fab_colorPressed="@color/new_pink_pressed_semi_transparent" />
+        
+        <tv.llel.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_ation3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/yellow_semi_transparent"
+            fab:fab_colorPressed="@color/yellow_semi_transparent_pressed" />
+        
+    </tv.llel.floatingactionbutton.FloatingActionsMenu>
+    
+</RelativeLayout>
+

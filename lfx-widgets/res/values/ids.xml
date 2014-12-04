@@ -1,0 +1,10 @@
+
+<resources>
+
+    
+    <item type="id" name="action_next" />
+    <item type="id" name="action_flip" />
+
+    <item name="fab_expand_menu_button" type="id"/>
+    
+</resources>

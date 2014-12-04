@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+    <color name="blue">#5677fc</color>
+    <color name="blue_pressed">#738ffe</color>
+    <color name="pink_semi_transparent">#80e91e63</color>
+    <color name="pink_semi_transparent_pressed">#80ec407a</color>
+    
+    <color name="new_pink_semi_transparent">#80f781be</color>
+    <color name="new_pink_pressed_semi_transparent">#80f5a9f2</color>
+    
+    <color name="yellow_semi_transparent">#80f3f781</color>
+    <color name="yellow_semi_transparent_pressed">#80f5f6ce</color>
+    
+    <color name="meganta_semi_transparent">#8058FAF4</color>
+    <color name="meganta_semi_transparent_pressed">#80A9F5E1</color>
+    
+    <color name="refresh_progress_1">#5677fc</color>
+	<color name="refresh_progress_2">#e91e63</color>
+	<color name="refresh_progress_3">#58FAF4</color>
+
+</resources>
